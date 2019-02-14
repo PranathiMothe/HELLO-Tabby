@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1C76982215F9EC00E16D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C76972215F9EC00E16D6C /* AppDelegate.swift */; };
+		3F1C769A2215F9EC00E16D6C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C76992215F9EC00E16D6C /* FirstViewController.swift */; };
+		3F1C769C2215F9EC00E16D6C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C769B2215F9EC00E16D6C /* SecondViewController.swift */; };
+		3F1C769F2215F9EC00E16D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C769D2215F9EC00E16D6C /* Main.storyboard */; };
+		3F1C76A12215F9EC00E16D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C76A02215F9EC00E16D6C /* Assets.xcassets */; };
+		3F1C76A42215F9EC00E16D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C76A22215F9EC00E16D6C /* LaunchScreen.storyboard */; };
+		3F1C76AF2215F9EC00E16D6C /* HELLO_TabbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C76AE2215F9EC00E16D6C /* HELLO_TabbyTests.swift */; };
+		3F1C76BA2215F9EC00E16D6C /* HELLO_TabbyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C76B92215F9EC00E16D6C /* HELLO_TabbyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1C76AB2215F9EC00E16D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1C768C2215F9EC00E16D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1C76932215F9EC00E16D6C;
+			remoteInfo = "HELLO Tabby";
+		};
+		3F1C76B62215F9EC00E16D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1C768C2215F9EC00E16D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1C76932215F9EC00E16D6C;
+			remoteInfo = "HELLO Tabby";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1C76942215F9EC00E16D6C /* HELLO Tabby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HELLO Tabby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C76972215F9EC00E16D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1C76992215F9EC00E16D6C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3F1C769B2215F9EC00E16D6C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3F1C769E2215F9EC00E16D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1C76A02215F9EC00E16D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1C76A32215F9EC00E16D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1C76A52215F9EC00E16D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1C76AA2215F9EC00E16D6C /* HELLO TabbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HELLO TabbyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C76AE2215F9EC00E16D6C /* HELLO_TabbyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HELLO_TabbyTests.swift; sourceTree = "<group>"; };
+		3F1C76B02215F9EC00E16D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1C76B52215F9EC00E16D6C /* HELLO TabbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HELLO TabbyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C76B92215F9EC00E16D6C /* HELLO_TabbyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HELLO_TabbyUITests.swift; sourceTree = "<group>"; };
+		3F1C76BB2215F9EC00E16D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1C76912215F9EC00E16D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C76A72215F9EC00E16D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C76B22215F9EC00E16D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1C768B2215F9EC00E16D6C = {
+			isa = PBXGroup;
+			children = (
+				3F1C76962215F9EC00E16D6C /* HELLO Tabby */,
+				3F1C76AD2215F9EC00E16D6C /* HELLO TabbyTests */,
+				3F1C76B82215F9EC00E16D6C /* HELLO TabbyUITests */,
+				3F1C76952215F9EC00E16D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1C76952215F9EC00E16D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C76942215F9EC00E16D6C /* HELLO Tabby.app */,
+				3F1C76AA2215F9EC00E16D6C /* HELLO TabbyTests.xctest */,
+				3F1C76B52215F9EC00E16D6C /* HELLO TabbyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1C76962215F9EC00E16D6C /* HELLO Tabby */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C76972215F9EC00E16D6C /* AppDelegate.swift */,
+				3F1C76992215F9EC00E16D6C /* FirstViewController.swift */,
+				3F1C769B2215F9EC00E16D6C /* SecondViewController.swift */,
+				3F1C769D2215F9EC00E16D6C /* Main.storyboard */,
+				3F1C76A02215F9EC00E16D6C /* Assets.xcassets */,
+				3F1C76A22215F9EC00E16D6C /* LaunchScreen.storyboard */,
+				3F1C76A52215F9EC00E16D6C /* Info.plist */,
+			);
+			path = "HELLO Tabby";
+			sourceTree = "<group>";
+		};
+		3F1C76AD2215F9EC00E16D6C /* HELLO TabbyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C76AE2215F9EC00E16D6C /* HELLO_TabbyTests.swift */,
+				3F1C76B02215F9EC00E16D6C /* Info.plist */,
+			);
+			path = "HELLO TabbyTests";
+			sourceTree = "<group>";
+		};
+		3F1C76B82215F9EC00E16D6C /* HELLO TabbyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C76B92215F9EC00E16D6C /* HELLO_TabbyUITests.swift */,
+				3F1C76BB2215F9EC00E16D6C /* Info.plist */,
+			);
+			path = "HELLO TabbyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1C76932215F9EC00E16D6C /* HELLO Tabby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C76BE2215F9EC00E16D6C /* Build configuration list for PBXNativeTarget "HELLO Tabby" */;
+			buildPhases = (
+				3F1C76902215F9EC00E16D6C /* Sources */,
+				3F1C76912215F9EC00E16D6C /* Frameworks */,
+				3F1C76922215F9EC00E16D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HELLO Tabby";
+			productName = "HELLO Tabby";
+			productReference = 3F1C76942215F9EC00E16D6C /* HELLO Tabby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1C76A92215F9EC00E16D6C /* HELLO TabbyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C76C12215F9EC00E16D6C /* Build configuration list for PBXNativeTarget "HELLO TabbyTests" */;
+			buildPhases = (
+				3F1C76A62215F9EC00E16D6C /* Sources */,
+				3F1C76A72215F9EC00E16D6C /* Frameworks */,
+				3F1C76A82215F9EC00E16D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1C76AC2215F9EC00E16D6C /* PBXTargetDependency */,
+			);
+			name = "HELLO TabbyTests";
+			productName = "HELLO TabbyTests";
+			productReference = 3F1C76AA2215F9EC00E16D6C /* HELLO TabbyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1C76B42215F9EC00E16D6C /* HELLO TabbyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C76C42215F9EC00E16D6C /* Build configuration list for PBXNativeTarget "HELLO TabbyUITests" */;
+			buildPhases = (
+				3F1C76B12215F9EC00E16D6C /* Sources */,
+				3F1C76B22215F9EC00E16D6C /* Frameworks */,
+				3F1C76B32215F9EC00E16D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1C76B72215F9EC00E16D6C /* PBXTargetDependency */,
+			);
+			name = "HELLO TabbyUITests";
+			productName = "HELLO TabbyUITests";
+			productReference = 3F1C76B52215F9EC00E16D6C /* HELLO TabbyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1C768C2215F9EC00E16D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F1C76932215F9EC00E16D6C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3F1C76A92215F9EC00E16D6C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F1C76932215F9EC00E16D6C;
+					};
+					3F1C76B42215F9EC00E16D6C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F1C76932215F9EC00E16D6C;
+					};
+				};
+			};
+			buildConfigurationList = 3F1C768F2215F9EC00E16D6C /* Build configuration list for PBXProject "HELLO Tabby" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1C768B2215F9EC00E16D6C;
+			productRefGroup = 3F1C76952215F9EC00E16D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1C76932215F9EC00E16D6C /* HELLO Tabby */,
+				3F1C76A92215F9EC00E16D6C /* HELLO TabbyTests */,
+				3F1C76B42215F9EC00E16D6C /* HELLO TabbyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1C76922215F9EC00E16D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C76A42215F9EC00E16D6C /* LaunchScreen.storyboard in Resources */,
+				3F1C76A12215F9EC00E16D6C /* Assets.xcassets in Resources */,
+				3F1C769F2215F9EC00E16D6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C76A82215F9EC00E16D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C76B32215F9EC00E16D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1C76902215F9EC00E16D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C769C2215F9EC00E16D6C /* SecondViewController.swift in Sources */,
+				3F1C76982215F9EC00E16D6C /* AppDelegate.swift in Sources */,
+				3F1C769A2215F9EC00E16D6C /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C76A62215F9EC00E16D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C76AF2215F9EC00E16D6C /* HELLO_TabbyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C76B12215F9EC00E16D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C76BA2215F9EC00E16D6C /* HELLO_TabbyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1C76AC2215F9EC00E16D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1C76932215F9EC00E16D6C /* HELLO Tabby */;
+			targetProxy = 3F1C76AB2215F9EC00E16D6C /* PBXContainerItemProxy */;
+		};
+		3F1C76B72215F9EC00E16D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1C76932215F9EC00E16D6C /* HELLO Tabby */;
+			targetProxy = 3F1C76B62215F9EC00E16D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1C769D2215F9EC00E16D6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1C769E2215F9EC00E16D6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1C76A22215F9EC00E16D6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1C76A32215F9EC00E16D6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1C76BC2215F9EC00E16D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F1C76BD2215F9EC00E16D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1C76BF2215F9EC00E16D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HELLO Tabby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri-state-university.HELLO-Tabby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1C76C02215F9EC00E16D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HELLO Tabby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri-state-university.HELLO-Tabby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F1C76C22215F9EC00E16D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HELLO TabbyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri-state-university.HELLO-TabbyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HELLO Tabby.app/HELLO Tabby";
+			};
+			name = Debug;
+		};
+		3F1C76C32215F9EC00E16D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HELLO TabbyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri-state-university.HELLO-TabbyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HELLO Tabby.app/HELLO Tabby";
+			};
+			name = Release;
+		};
+		3F1C76C52215F9EC00E16D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HELLO TabbyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri-state-university.HELLO-TabbyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HELLO Tabby";
+			};
+			name = Debug;
+		};
+		3F1C76C62215F9EC00E16D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HELLO TabbyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Northwest-Missouri-state-university.HELLO-TabbyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HELLO Tabby";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1C768F2215F9EC00E16D6C /* Build configuration list for PBXProject "HELLO Tabby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C76BC2215F9EC00E16D6C /* Debug */,
+				3F1C76BD2215F9EC00E16D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1C76BE2215F9EC00E16D6C /* Build configuration list for PBXNativeTarget "HELLO Tabby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C76BF2215F9EC00E16D6C /* Debug */,
+				3F1C76C02215F9EC00E16D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1C76C12215F9EC00E16D6C /* Build configuration list for PBXNativeTarget "HELLO TabbyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C76C22215F9EC00E16D6C /* Debug */,
+				3F1C76C32215F9EC00E16D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1C76C42215F9EC00E16D6C /* Build configuration list for PBXNativeTarget "HELLO TabbyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C76C52215F9EC00E16D6C /* Debug */,
+				3F1C76C62215F9EC00E16D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1C768C2215F9EC00E16D6C /* Project object */;
+}
